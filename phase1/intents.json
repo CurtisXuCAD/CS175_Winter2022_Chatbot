@@ -1,6 +1,6 @@
 {"intents": [
     {"tag": "greeting",
-     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+     "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day", "How are you doing", "how are you?"],
      "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
      "context": [""]
     },
@@ -20,7 +20,7 @@
      "context": [""]
     },
     {"tag": "options",
-     "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+     "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?", "who are you?", "what is your job?"],
      "responses": ["I can guide you through Adverse management problems, order tracking, person to be contacted and Department related queries","I can provide support related to following problems technical query,management related query,order related query,tracking related query,procurement query,outsourcing problem,manufacturing delay,"],
      "context": [""]
     },
